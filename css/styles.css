@@ -1,0 +1,91 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #f6f8fa;
+}
+
+header nav div {
+  height: 86px;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.frontLogo {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 46.1px;
+  width: 154.9px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: auto;
+  gap: 20px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #677788;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.nav-items a:hover {
+  color: #2476ff;
+}
+
+.buyNow a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: #2476ff;
+  color: #ffffff;
+  width: 102px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px 0 30px;
+  background-image: url('/assets/bg/background-top.svg');
+  height: 446px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 11px;
+}
+
+.logos {
+  max-width: 80px;
+}
