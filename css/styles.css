@@ -67,7 +67,13 @@ header img {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #2476ff;
   border-radius: 30px;
+}
+
+.buyNow a:hover {
+  color: #0052cc;
+  background-color: #ffffff;
 }
 
 .topSection {
@@ -86,6 +92,122 @@ header img {
   gap: 11px;
 }
 
+.leftContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  flex: 1;
+}
+
+.topHeader {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+  min-height: 144px;
+  max-width: 334px;
+  margin: 0;
+  text-wrap: wrap;
+}
+
+.headerContainer p {
+  color: #677788;
+}
+
+.buttonTop {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.playVideo {
+  background-color: #2476ff;
+  color: #ffffff;
+  padding: 15px 25px;
+  border: 1px solid #2476ff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.playVideo:hover {
+  background-color: #164596;
+}
+
+.buttonTop a {
+  text-decoration: none;
+  color: #677788;
+}
+
+.rightContainer {
+  display: relative;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50vw;
+  height: 50vw;
+  max-width: 400px;
+  max-height: 400px;
+  flex: 1;
+}
+
 .logos {
   max-width: 80px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 0px 3px 13px 0px #00000040;
 }
+
+.logos:hover {
+  transform: scale(1.1);
+}
+
+.googleLogo {
+  width: 40px;
+  padding: 10px;
+}
+
+.atlassianLogo {
+  width: 48px;
+  padding: 16px;
+}
+
+.asanaLogo {
+  width: 48px;
+  padding: 16px;
+}
+
+.paypalLogo {
+  width: 48px;
+  padding: 16px;
+}
+
+.weaveLogo {
+  width: 48px;
+  padding: 16px;
+}
+
+.google-adsLogo {
+  width: 40px;
+  padding: 10px;
+}
+
+.calendarLogo {
+  width: 48px;
+  padding: 16px;
+}
+
+  .logos:nth-child(1) { top: 10%; left: 5%; }
+  .logos:nth-child(2) { top: 15%; left: 20%;}
+  .logos:nth-child(3) { top: 15%; left: 50%; }
+  .logos:nth-child(4) { top: 50%; right: 40%; }
+  .logos:nth-child(5) { top: 50%; right: 20%; }
+  .logos:nth-child(6) { top: 60%; left: 40%; }
+  .logos:nth-child(7) { top: 65%; left: 70%; }
