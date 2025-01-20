@@ -221,9 +221,8 @@ header img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 0 30px;
-  max-width: 964px;
+  gap: 40px;
+  padding: 0 30px 80px 30px;
 }
 
 .whyFront {
@@ -231,6 +230,13 @@ header img {
   line-height: 32px;
   font-weight: 700;
   margin: 0;
+  text-align: center;
+}
+
+.whyTop {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .whyDefinition {
@@ -248,6 +254,9 @@ header img {
   align-content: center;
   flex-wrap: wrap;
   width: 100%;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .bulletCircle {
@@ -259,8 +268,205 @@ header img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.basicsOfFront::before {
+  content: '';
+  position: absolute;
+  top: 28%;
+  left: -50%;
+  width: 100%;
+  height: 2px;
+  background-color: #d0d0d0;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+
+.basicsOfFront:first-child::before {
+  display: none;
+}
+
+.basicsOfFront::after {
+  content: '';
+  position: absolute;
+  top: 28%;
+  right: -50%;
+  width: 100%;
+  height: 2px;
+  background-color: #d0d0d0;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+
+.basicsOfFront:last-child::after {
+  display: none;
 }
 
 .basicsOfFront p {
   margin: 24px 0 0 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 0 30px;
+}
+
+.pricingSection {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pricingHeader {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.pricingDefinition {
+  font-size: 16px;
+  line-height: 24px;
+  text-wrap: wrap;
+  text-align: center;
+  color: #677788;
+  max-width: 600px;
+}
+
+.pricing img {
+  max-width: 50px;
+}
+
+.pricingRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 452px;
+  max-height: 452px;
+}
+
+.pricingBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 67.5px 40px;
+  border: 1px solid #e2e2e2;
+  max-width: 290px;
+  box-shadow: 0px 10px 20px 0px #00000026;
+}
+
+.pricePerMonth {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #8d8d8d;
+}
+
+.price {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 500;
+  margin-top: auto;
+  margin-right: 10px;
+
+}
+
+.perMonth {
+  font-size: 20px;
+  line-height: 24px;
+  margin: auto 0 8px 0;
+  color: #677788;
+}
+
+.monthlyInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 40px;
+}
+
+.monthlyInfoDef {
+  font-size: 16px;
+  line-height: 24px;
+  color: #677788;
+}
+
+.playAndNo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.playVideo {
+  max-width: 87px;
+}
+
+.playVideo span {
+  font-size: 12px;
+}
+
+.noCC {
+  font-size: 12px;
+  line-height: 15px;
+  color: #677788;
+}
+
+.componentsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 524px;
+  max-height: 452px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.row1, .row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 524px;
+  max-width: 524px;
+}
+
+.component1, .component2, .component3, .component4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.componentBox {
+  padding: 20px;
+  max-height: 219px;
+  gap: 20px;
+}
+
+.componentBox h3 {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.componentBox p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #677788;
+  margin: 0;
 }
