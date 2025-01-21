@@ -470,3 +470,335 @@ header img {
   color: #677788;
   margin: 0;
 }
+
+.component3 span {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #01c9a7;
+  padding: 4px 10px;
+  border-radius: 15px;
+}
+
+.sketchComponent {
+  display: flex;
+  gap: 10px;
+}
+
+.hireUsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #20335b;
+  width: 100%;
+  min-height: 708px;
+}
+
+.hireLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  margin: 30px 0 30px 30px;
+  max-width: 482px;
+  padding: 142.5px 42px 142.5px 70px;
+}
+
+.hireUsLeft {
+  gap: 10px;
+}
+
+.hireUsHead {
+  border-bottom: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 370px;
+}
+
+.profileContainer {
+  margin-top: 60px;
+  max-width: 208px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hireUs {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.hireUsHead p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #677788;
+  margin: 0 0 35px 0;
+}
+
+.hireP {
+  font-style: italic;
+  color: #ffffff;
+  max-width: 370px;
+}
+
+.hireP p {
+  margin: 35px 0 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.headName {
+  color: #ffffff;
+}
+
+.headName h3, .nameDesc p {
+  margin: 0;
+}
+
+.nameDesc {
+  color: #677788;
+}
+
+.manOne {
+  max-width: 60px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.hireRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  margin: 30px 30px 30px 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: auto;
+  max-width: 392px;
+  min-width: 392px;
+  padding: 30px 45px;
+}
+
+.hireUsHeader {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.hireUsForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 382px;
+  justify-content: center;
+  align-items: center;
+}
+
+.formRow1, .formRow3 {
+  display: flex;
+  gap: 20px;
+}
+
+.firstName, .lastName {
+  height: 24px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #e6e8f2;
+  border-radius: 5px;
+}
+
+.email {
+  height: 24px;
+  padding: 10px;
+  border: 1px solid #e6e8f2;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+}
+
+select {
+  height: 44px;
+  border: 1px solid #e6e8f2;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  min-width: 181px;
+}
+
+select option {
+  height: 44px;
+  line-height: 44px;
+}
+
+#tellUsMore {
+  height: 150px;
+  border: 1px solid #e6e8f2;
+  border-radius: 5px;
+  resize: none;
+  font-family: 'Inter', sans-serif;
+  min-width: calc(100% - 4px);
+}
+
+#tellUsMore::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.checkboxContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.checkbox {
+  appearance: none;
+  height: 25px;
+  width: 25px;
+  border: 1px solid #e6e8f2;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  display: none;
+}
+
+.checkbox:checked::before {
+  content: '✔';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #2476ff;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.checkboxDef {
+  font-size: 14px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.privacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.privacy a {
+  text-decoration: none;
+  color: #2476ff;
+  border-bottom: 1px dotted #2476ff;
+}
+
+.privacy a::visited { color: #677788; }
+
+.submitForm {
+  background-color: #2476ff;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 15px 25px;
+  border: 1px solid #2476ff;
+  border-radius: 30px;
+  max-width: 125px;
+  max-height: 45px;
+  margin: 17px 0 0 0;
+}
+
+footer {
+  max-height: 246px;
+  display: flex;
+  padding: 40px 30px;
+}
+
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  min-width: 251px;
+}
+
+.footerFrontLogo {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.address img, .phone img { padding-right: 10px; }
+
+.address a {
+  color: #677788;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+.phone a {
+  color: #2476ff;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+.footer2 {
+  display: flex;
+  gap: 49px;
+  flex: 2;
+}
+
+.footer3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+
+footer h3 {
+  margin: 0 0 20px 0;
+}
+
+.footer3 a {
+  color: #677788;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+.footer3 a:hover {
+  color: #2476ff;
+}
+
+.footer3 img {
+  padding-right: 10px;
+}
