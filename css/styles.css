@@ -12,6 +12,10 @@ header {
   background-color: #f6f8fa;
 }
 
+.hamburger {
+  display: none;
+}
+
 header nav div {
   height: 86px;
   width: auto;
